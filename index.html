@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not Bootstrap Only CSS</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Reset CSS dosyası -->
+    <link rel="stylesheet" href="reset.css" />
+    <!-- Main CSS dosyası -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navigation">
+      <div class="nav-container">
+        <a class="logo" href="#">Start Bootstrap</a>
+        <class="menu-container">
+          <button id="menu-toggle" ><i class="fas fa-bars"></i></button>
+          <ul class="menu-items">
+            <li class="menu"><a class="menu-link" href="#portfolio">Portfolio</a></li>
+            <li class="menu"><a class="menu-link" href="#about">About</a></li>
+            <li class="menu"><a class="menu-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- HERO SECTİON -->
+    <section class="hero-section">
+      <div class="hero-container">
+        <img class="avatar-img" src="assets/img/avataaars.svg" alt="avatar" />
+        <h1 class="title">Start Bootstrap</h1>
+        <div class="star-container">
+          <div class="star-icon"><i class="fas fa-star"></i></div>
+        </div>
+        <p class="subheader">Graphic Artist - Web Designer - Illustrator</p>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO SECTİON -->
+    <section id="portfolio" class="portfolio-section">
+      <div class="card-container">
+        <h1 class="title-portfolio">Portfolio</h1>
+        <div class="portfolio-star-icon"><i class="fas fa-star"></i></div>
+      </div>
+      <div class="card-row">
+        <div class="card">
+          <img src="assets/img/portfolio/cabin.png" alt="cabin" />
+        </div>
+        <div class="card">
+          <img src="assets/img/portfolio/cake.png" alt="cake" />
+        </div>
+        <div class="card">
+          <img src="assets/img/portfolio/circus.png" alt="circus" />
+        </div>
+        <div class="card">
+          <img src="assets/img/portfolio/game.png" alt="game" />
+        </div>
+        <div class="card">
+          <img src="assets/img/portfolio/safe.png" alt="safe" />
+        </div>
+        <div class="card">
+          <img src="assets/img/portfolio/submarine.png" alt="submarine" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTİON -->
+    <section id="about" class="about-section">
+      <div class="about-container">
+        <h1 class="title-about">About</h1>
+        <div class="about-star-icon"><i class="fas fa-star"></i></div>
+      </div>
+
+      <div class="content-container">
+        <div class="content-text">
+          <p class="text">
+            Freelancer is a free bootstrap theme created by Start Bootstrap. The
+            download includes the complete source files including HTML, CSS, and
+            JavaScript as well as optional SASS stylesheets for easy
+            customization.
+          </p>
+        </div>
+        <div class="content-text">
+          <p class="text">
+            You can create your own custom avatar for the masthead, change the
+            icon in the dividers, and add your email address to the contact form
+            to make it fully functional!
+          </p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="btn">
+          <i id="download-icon" class="fas fa-download"></i>
+          Free Download!
+        </button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="location">
+          <h1 class="footer-title">Location</h1>
+          <p>2215 John Daniel Drive</p>
+          <p>Clark, MO 65243</p>
+        </div>
+        <div class="social-media">
+          <h1 class="footer-title">AROUND THE WEB</h1>
+          <ul class="social-icons">
+            <li>
+              <a class="icons-link" href="/"
+                ><i class="fab fa-fw fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a class="icons-link" href="/"
+                ><i class="fab fa-fw fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a class="icons-link" href="/"
+                ><i class="fab fa-fw fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a class="icons-link" href="/"
+                ><i class="fab fa-fw fa-dribbble"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="about-freelancer">
+          <h1 class="footer-title">ABOUT FREELANCER</h1>
+          <p>
+            Freelance is a free to use, MIT licensed Bootstrap theme created by
+           <a class="bootstrap" href="/">Start Bootstrap</a>  .
+          </p>
+        </div>
+      </div>
+      <div class="copyright-container">
+        <p class="copyright-text">Copyright &copy; Your Website 2023</p>
+      </div>
+    </footer>
+  </body>
+</html>
