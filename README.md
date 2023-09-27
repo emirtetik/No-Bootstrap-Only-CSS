@@ -1,5 +1,5 @@
 # Not-Bootstrap-Only-CSS
-Bu proje, yalnızca CSS kullanarak tasarlanmış bir web sayfasını içerir. HTML ve CSS becerilerimi geliştirmek ve modern bir web sitesinin nasıl oluşturulabileceğini öğrenmek için oluşturulmuştur.
+Reset CSS, web geliştiricilerinin tarayıcıların varsayılan stil özelliklerini sıfırlamak veya sıfıra yakın bir duruma getirerek, web sayfalarının farklı tarayıcılarda daha tutarlı bir görünüm kazanmasını sağlamak için kullanılır. Geliştiricilere daha fazla tasarım özgürlüğü sağlar, ancak tüm stil ayarlarını geliştiricinin sorumluluğuna bırakılır.
 
 ![Project image](assets/img/portfolio/work.png)
 
